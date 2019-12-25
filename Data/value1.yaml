@@ -1,0 +1,43 @@
+#name: "lili"
+#NAME: "LILI"
+
+#value: {name: "小皮"}#支持python数据类型
+#value: 小小皮 #支持自动转换数据类型
+
+#-------------对象--------------
+#value3:  #多层级关系
+#  name1: "张三"
+#  name2: "李四"
+
+#-------------数组--------------
+#value:
+#  - 1
+#  - 2
+#
+#value1: [1,2,3]
+
+#value2:
+#  - name: "lili"
+#  - name: "lili"
+#-------------纯量--------------
+#value1: 122
+#value2: 1.75
+#value3: true
+#value4: false
+#空
+#value5: ~ #yaml 空
+#value6:   #m没有任何内容支持
+#value7: null #支持
+#value8: Null #支持
+#
+#value9: None #python数据不支持
+#value10: none # python数据不支持
+#value11: "" #python数据不支持
+
+#日期
+#value12: 2020-11-11 12:12:12 # 返回值 datatime.datatime
+#value13: 2020-11-11 #返回值 datatime.data
+#value14: 12:12:12 #返回整数
+
+#value15: 2020-11-11 02:02:01 #如果是个位数 一定要补0
+#value16: 2020-01-11 #如果是个位数 一定要补零

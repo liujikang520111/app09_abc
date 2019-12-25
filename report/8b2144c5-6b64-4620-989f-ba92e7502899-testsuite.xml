@@ -1,0 +1,77 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1577270466603" stop="1577270466671">
+  <name>scirepet</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1577270466603" status="passed" stop="1577270466607">
+      <name>02_test_sum.Test_003.test_003_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="23460-MainThread"/>
+        <label name="host" value="LAPTOP-9GLUA8SV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577270466609" status="failed" stop="1577270466663">
+      <name>02_test_sum.Test_003.test_003_3</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;scirepet.02_test_sum.Test_003 object at 0x046CA8D0&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    def test_003_3(self):
+&gt;       assert False
+E       assert False
+
+scirepet\02_test_sum.py:40: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="23460-MainThread"/>
+        <label name="host" value="LAPTOP-9GLUA8SV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577270466664" status="passed" stop="1577270466666">
+      <name>02_test_sum.Test_003.test_003_4</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="23460-MainThread"/>
+        <label name="host" value="LAPTOP-9GLUA8SV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577270466667" status="passed" stop="1577270466668">
+      <name>02_test_sum.Test_003.test_003_5</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="23460-MainThread"/>
+        <label name="host" value="LAPTOP-9GLUA8SV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1577270466669" status="passed" stop="1577270466671">
+      <name>02_test_sum.Test_003.test_003_6</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="23460-MainThread"/>
+        <label name="host" value="LAPTOP-9GLUA8SV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
